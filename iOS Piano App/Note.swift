@@ -11,7 +11,7 @@ import SpriteKit
 class Note {
     let keyCount = 25 // 2 octaves + 1 note (also in Keyboard.swift)
     
-    let time: Float
+    let time: Float // time in song
     let pitch: Int
     
     var shape: SKSpriteNode?

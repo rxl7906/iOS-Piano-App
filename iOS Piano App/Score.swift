@@ -57,8 +57,11 @@ class Score {
         }
     }
     
-    func moveDisplayedNotes() {
+    func moveDisplayedNotes(dt: Float) {
+        let delta = CGVector(dx: 0, dy: 0)
         
+        // Technically, it's for next duration, but close enough...
+//        let action = SKAction.moveBy(delta: delta, duration: dt)
     }
 }
 

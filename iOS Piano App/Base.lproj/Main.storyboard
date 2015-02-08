@@ -4,16 +4,16 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--Game View Controller-->
+        <!--View Controller-->
         <scene sceneID="tXr-a1-R10">
             <objects>
-                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="iOS_Piano_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BV1-FR-VrT" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="maK-i9-Uhn"/>
                         <viewControllerLayoutGuide type="bottom" id="khH-OB-KpY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maestro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6y7-Ty-w9D">
@@ -52,7 +52,7 @@
                                     <rect key="frame" x="247" y="279" width="103" height="31"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="yOe-rY-ILv" kind="show" id="Tnq-TH-kjk"/>
+                                    <segue destination="Hdl-fc-8I0" kind="show" id="1qc-em-TV7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -93,6 +93,7 @@
                         <viewControllerLayoutGuide type="bottom" id="JHL-Um-pjf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="OxX-cM-5iT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Song" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W13-j9-xH3">
@@ -131,6 +132,25 @@
             </objects>
             <point key="canvasLocation" x="675" y="-349"/>
         </scene>
+        <!--Game View Controller-->
+        <scene sceneID="J31-hM-WaT">
+            <objects>
+                <viewController id="Hdl-fc-8I0" customClass="GameViewController" customModule="iOS_Piano_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WNv-zO-uou"/>
+                        <viewControllerLayoutGuide type="bottom" id="C9c-PO-Zao"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rBG-F2-wwr" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nlm-sH-ZJg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3E-pf-2zK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-491" y="352"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="kjh-Wh-5gI">
             <objects>
@@ -142,12 +162,12 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BV1-FR-VrT" kind="relationship" relationship="rootViewController" id="cEm-vH-8lp"/>
+                        <segue destination="BV1-FR-VrT" kind="relationship" relationship="rootViewController" id="gDv-Kb-Jgr"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KRT-58-9mJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1023" y="-349"/>
+            <point key="canvasLocation" x="-1003" y="-349"/>
         </scene>
     </scenes>
     <resources>
