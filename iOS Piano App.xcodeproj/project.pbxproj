@@ -13,6 +13,8 @@
 		186DA8081A86DEB8006214B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8061A86DEB8006214B2 /* Main.storyboard */; };
 		186DA80D1A86DEB8006214B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186DA80B1A86DEB8006214B2 /* LaunchScreen.xib */; };
 		186DA8191A86DEB8006214B2 /* iOS_Piano_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DA8181A86DEB8006214B2 /* iOS_Piano_AppTests.swift */; };
+		D3DEEE271A87DD9800EB071B /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DEEE261A87DD9800EB071B /* Score.swift */; };
+		D3DEEE291A87FDF600EB071B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DEEE281A87FDF600EB071B /* Images.xcassets */; };
 		D3FBB8231A87111A00F89CD1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FBB8221A87111A00F89CD1 /* Note.swift */; };
 		D3FBB8251A87137D00F89CD1 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FBB8241A87137D00F89CD1 /* Keyboard.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,8 @@
 		186DA8121A86DEB8006214B2 /* iOS Piano AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Piano AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186DA8171A86DEB8006214B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186DA8181A86DEB8006214B2 /* iOS_Piano_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Piano_AppTests.swift; sourceTree = "<group>"; };
+		D3DEEE261A87DD9800EB071B /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		D3DEEE281A87FDF600EB071B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D3FBB8221A87111A00F89CD1 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		D3FBB8241A87137D00F89CD1 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +85,7 @@
 		186DA7FB1A86DEB8006214B2 /* iOS Piano App */ = {
 			isa = PBXGroup;
 			children = (
+				D3DEEE281A87FDF600EB071B /* Images.xcassets */,
 				186DA7FE1A86DEB8006214B2 /* AppDelegate.swift */,
 				186DA8021A86DEB8006214B2 /* GameScene.swift */,
 				186DA8041A86DEB8006214B2 /* GameViewController.swift */,
@@ -88,6 +93,7 @@
 				186DA80B1A86DEB8006214B2 /* LaunchScreen.xib */,
 				186DA7FC1A86DEB8006214B2 /* Supporting Files */,
 				D3FBB8221A87111A00F89CD1 /* Note.swift */,
+				D3DEEE261A87DD9800EB071B /* Score.swift */,
 				D3FBB8241A87137D00F89CD1 /* Keyboard.swift */,
 			);
 			path = "iOS Piano App";
@@ -198,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DEEE291A87FDF600EB071B /* Images.xcassets in Resources */,
 				186DA80D1A86DEB8006214B2 /* LaunchScreen.xib in Resources */,
 				186DA8081A86DEB8006214B2 /* Main.storyboard in Resources */,
 			);
@@ -221,6 +228,7 @@
 				186DA8051A86DEB8006214B2 /* GameViewController.swift in Sources */,
 				D3FBB8251A87137D00F89CD1 /* Keyboard.swift in Sources */,
 				186DA7FF1A86DEB8006214B2 /* AppDelegate.swift in Sources */,
+				D3DEEE271A87DD9800EB071B /* Score.swift in Sources */,
 				D3FBB8231A87111A00F89CD1 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

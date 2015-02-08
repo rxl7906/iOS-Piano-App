@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>CB76076A-074D-415E-88CD-AE42768615D5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOS Piano App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BCEFB523FAD22C0F965AF7D8845D9D56BB26E435</key>
+		<string>ssh://github.com/rxl7906/iOS-Piano-App.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS Piano App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BCEFB523FAD22C0F965AF7D8845D9D56BB26E435</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/rxl7906/iOS-Piano-App.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BCEFB523FAD22C0F965AF7D8845D9D56BB26E435</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BCEFB523FAD22C0F965AF7D8845D9D56BB26E435</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-Piano-App</string>
+		</dict>
+	</array>
+</dict>
+</plist>

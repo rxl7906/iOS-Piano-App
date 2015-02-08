@@ -11,6 +11,7 @@ import SpriteKit
 class GameScene: SKScene {
     
     var keyboard: Keyboard? = nil
+    var score: Score? = nil
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
@@ -35,6 +36,9 @@ class GameScene: SKScene {
         
         keyboard = Keyboard()
         keyboard?.attach(self)
+        
+        score = Score()
+        score?.attach(self)
     }
 
     required init?(coder aDecoder: NSCoder) {

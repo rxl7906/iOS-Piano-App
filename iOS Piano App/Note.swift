@@ -9,15 +9,25 @@
 import SpriteKit
 
 class Note {
-    let time: Float
-    let pitch: UInt
+    let keyCount = 25 // 2 octaves + 1 note (also in Keyboard.swift)
     
-    init(time: Float, pitch: UInt) {
+    let time: Float
+    let pitch: Int
+    
+    var shape: SKSpriteNode?
+    
+    init(time: Float, pitch: Int) {
         self.time = time
         self.pitch = pitch
     }
     
-    // TODO constructor for midi
-    
-    
+    func makeShape(scene: GameScene) -> SKSpriteNode {
+        self.shape = SKSpriteNode(imageNamed: "Dot")
+        
+        let scale = scene.size.width / CGFloat(keyCount) / CGFloat((self.shape?.size.width)!)
+        
+        self.shape?.setScale(scale)
+        
+        return self.shape!
+    }
 }

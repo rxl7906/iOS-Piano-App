@@ -28,7 +28,7 @@ class Keyboard {
         }
     }
     
-    func makeShape(key: Key, scene: SKScene) -> SKShapeNode {
+    func makeShape(key: Key, scene: GameScene) -> SKShapeNode {
         let xpos = CGFloat(keyIndex(key)) * CGFloat(keyWidth)
         let rect = CGRect(x: xpos, y: 0, width: keyWidth, height: keyHeight)
         let shape = SKShapeNode(rect: rect)
@@ -45,7 +45,7 @@ class Keyboard {
         return key.value - startNote
     }
     
-    func attach(scene: SKScene) {
+    func attach(scene: GameScene) {
         self.scene = scene
         
         self.screenWidth = scene.size.width
