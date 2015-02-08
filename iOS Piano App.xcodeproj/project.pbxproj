@@ -13,6 +13,7 @@
 		186DA8081A86DEB8006214B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8061A86DEB8006214B2 /* Main.storyboard */; };
 		186DA80D1A86DEB8006214B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186DA80B1A86DEB8006214B2 /* LaunchScreen.xib */; };
 		186DA8191A86DEB8006214B2 /* iOS_Piano_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DA8181A86DEB8006214B2 /* iOS_Piano_AppTests.swift */; };
+		186DA8271A87D336006214B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8261A87D336006214B2 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		186DA8121A86DEB8006214B2 /* iOS Piano AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Piano AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186DA8171A86DEB8006214B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186DA8181A86DEB8006214B2 /* iOS_Piano_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Piano_AppTests.swift; sourceTree = "<group>"; };
+		186DA8261A87D336006214B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				186DA8041A86DEB8006214B2 /* GameViewController.swift */,
 				186DA8061A86DEB8006214B2 /* Main.storyboard */,
 				186DA80B1A86DEB8006214B2 /* LaunchScreen.xib */,
+				186DA8261A87D336006214B2 /* Images.xcassets */,
 				186DA7FC1A86DEB8006214B2 /* Supporting Files */,
 			);
 			path = "iOS Piano App";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186DA8271A87D336006214B2 /* Images.xcassets in Resources */,
 				186DA80D1A86DEB8006214B2 /* LaunchScreen.xib in Resources */,
 				186DA8081A86DEB8006214B2 /* Main.storyboard in Resources */,
 			);
