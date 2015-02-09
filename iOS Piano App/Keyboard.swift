@@ -58,6 +58,18 @@ class Keyboard {
             self.scene?.addChild(shape)
         }
     }
+    
+    func flashNote(note: Note) {
+        let key = self.keys[note.pitch - self.startNote]
+        
+        key.flash()
+    }
+    
+    func clearFlash(delta: Double) {
+        for key in self.keys {
+            key.maybeClearFlash(delta)
+        }
+    }
 }
 
 class Key {
@@ -65,6 +77,8 @@ class Key {
 
     let value: Int
     var shape: SKShapeNode?
+    
+    var flashDuration: Double = 0
     
     init(value: Int) {
         self.value = value
@@ -80,5 +94,23 @@ class Key {
         }
         
         return UIColor.whiteColor()
+    }
+    
+    func flash() {
+        if let s = shape {
+            s.fillColor = UIColor.redColor()
+        }
+    }
+    
+    func maybeClearFlash(delta: Double) {
+        self.flashDuration += delta
+        
+        if self.flashDuration > 0.2 {
+            self.flashDuration = 0
+            
+            if let s = shape {
+                s.fillColor = self.color()
+            }
+        }
     }
 }

@@ -80,7 +80,9 @@ class Score {
                 shape.removeFromParent()
             }
             
-            var audioPlayer: AVAudioPlayer?
+            if let s = self.scene {
+                s.flashNote(note)
+            }
             
             playNote(note)
         }
