@@ -8,8 +8,11 @@
 
 import SpriteKit
 
+let noteShapeID: UInt32 = 0x1 << 0
+let keyboardKeyShapeID: UInt32 = 0x1 << 1
+
 class Note {
-    let keyCount = 25 // 2 octaves + 1 note (also in Keyboard.swift)
+    let keyCount = 37 // 2 octaves + 1 note (also in Keyboard.swift)
     let startNote = 60 // Middle C
     
     let time: Double // time in song

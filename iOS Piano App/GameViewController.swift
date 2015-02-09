@@ -14,7 +14,7 @@ class GameViewController: UIViewController {
     
     var scene: GameScene!
     
-    var audioPlayer: AVAudioPlayer? // for audio
+    //var audioPlayer: AVAudioPlayer? // for audio
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +28,7 @@ class GameViewController: UIViewController {
         skView.presentScene(scene)
         
         
-        var paths = NSBundle.mainBundle().resourcePath!
+        /*var paths = NSBundle.mainBundle().resourcePath!
         var getImagePath = paths.stringByAppendingPathComponent("Piano.mf.A4.aiff")
         
         var error: NSError? = NSError()
@@ -37,7 +37,7 @@ class GameViewController: UIViewController {
         println(error)
         
         audioPlayer!.prepareToPlay()
-        audioPlayer!.play()
+        audioPlayer!.play()*/
 
     }
 

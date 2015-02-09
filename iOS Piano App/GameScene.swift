@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var keyboard: Keyboard? = nil
     var score: Score? = nil
