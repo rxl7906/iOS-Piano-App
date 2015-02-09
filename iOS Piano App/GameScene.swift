@@ -26,15 +26,23 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.addChild(myLabel)
     }
     
+    func flashNote(note: Note) {
+        if let kbd = self.keyboard {
+            kbd.flashNote(note)
+        }
+    }
+    
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
         /* Called when a touch begins */
     }
-   
+    
     override func update(currentTime: CFTimeInterval) {
         if let myLast = last {
             let delta = currentTime - myLast
             
             self.score?.update(delta)
+            
+            self.keyboard?.clearFlash(delta)
             
             self.last = currentTime
         } else {

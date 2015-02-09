@@ -34,7 +34,7 @@ class Note {
         let screenWidth = scene.size.width,
             laneWidth = Double(screenWidth) / Double(keyCount),
             xIndex = self.pitch - self.startNote,
-            xPos = Double(xIndex) * 3.0 / 2.0 * laneWidth,
+            xPos = Double(xIndex) * laneWidth + 0.5 * laneWidth,
             yPos = Double(scene.size.height) * 0.9
         
         self.shape?.position = CGPoint(x: xPos, y: yPos)
