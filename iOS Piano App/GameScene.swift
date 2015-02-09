@@ -13,6 +13,8 @@ class GameScene: SKScene {
     var keyboard: Keyboard? = nil
     var score: Score? = nil
     
+    var last: NSTimeInterval? = nil
+    
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         let myLabel = SKLabelNode(fontNamed:"Chalkduster")
@@ -28,7 +30,15 @@ class GameScene: SKScene {
     }
    
     override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
+        if let myLast = last {
+            let delta = currentTime - myLast
+            
+            self.score?.update(delta)
+            
+            self.last = currentTime
+        } else {
+            last = currentTime
+        }
     }
     
     override init(size: CGSize) {

@@ -10,13 +10,14 @@ import SpriteKit
 
 class Note {
     let keyCount = 25 // 2 octaves + 1 note (also in Keyboard.swift)
+    let startNote = 60 // Middle C
     
-    let time: Float // time in song
+    let time: Double // time in song
     let pitch: Int
     
     var shape: SKSpriteNode?
     
-    init(time: Float, pitch: Int) {
+    init(time: Double, pitch: Int) {
         self.time = time
         self.pitch = pitch
     }
@@ -25,8 +26,15 @@ class Note {
         self.shape = SKSpriteNode(imageNamed: "Dot")
         
         let scale = scene.size.width / CGFloat(keyCount) / CGFloat((self.shape?.size.width)!)
-        
         self.shape?.setScale(scale)
+        
+        let screenWidth = scene.size.width,
+            laneWidth = Double(screenWidth) / Double(keyCount),
+            xIndex = self.pitch - self.startNote,
+            xPos = Double(xIndex) * laneWidth,
+            yPos = Double(scene.size.height) * 0.9
+        
+        self.shape?.position = CGPoint(x: xPos, y: yPos)
         
         return self.shape!
     }

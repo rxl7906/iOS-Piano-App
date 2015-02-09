@@ -13,6 +13,7 @@ class Keyboard {
     let startNote = 60 // Middle C
     
     let strokeColor = UIColor.grayColor()
+    let heightRatio: CGFloat = 0.15
     
     var screenWidth: CGFloat = 0
     var keyWidth: CGFloat = 0
@@ -50,7 +51,7 @@ class Keyboard {
         
         self.screenWidth = scene.size.width
         self.keyWidth = screenWidth / CGFloat(keyCount)
-        self.keyHeight = CGFloat(0.15) * scene.size.height
+        self.keyHeight = heightRatio * scene.size.height
         
         for key in keys {
             var shape = makeShape(key, scene: scene)

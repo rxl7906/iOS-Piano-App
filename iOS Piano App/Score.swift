@@ -11,10 +11,17 @@ import SpriteKit
 class Score {
     var notes: [Note] = []
     var displayedNotes: [Note] = []
-    let timingWindowDuration: Float = 4 // seconds
-    let timingOverflowDuration: Float = 0.25 // seconds
+    var deltaPixelsPerSecond: CGFloat = 0
     
-    var time: Float = -3.0
+    let timingWindowDuration: Double = 4 // seconds
+    let timingOverflowDuration: Double = 0.25 // seconds
+    
+    let bpm = 100 // beats per minute
+    let beatsPerMeasure = 4 // 4/4 time
+    let measuresPerScren = 2 // Show 2 measures at a time
+    let heightRatio: CGFloat = 0.85
+    
+    var time: Double = -3.0
     
     var scene: GameScene? = nil
     
@@ -26,21 +33,35 @@ class Score {
     func attach(scene: GameScene) {
         self.scene = scene
         
+        // 100 beats    1 min   1 measure   1 screen    200 px     px
+        // --------- * ------ * --------- * --------- * -------- = ---
+        //   1 min     60 sec   4 beats     2 mesures   1 screen   sec
+        self.deltaPixelsPerSecond =
+            CGFloat(bpm) *
+            CGFloat(1.0 / 60.0) /
+            CGFloat(beatsPerMeasure) /
+            CGFloat(measuresPerScren) *
+            scene.size.height * self.heightRatio
+        
+        
         self.fillDisplayedNotes()
     }
     
-    func update(dt: Float) {
+    func update(dt: Double) {
         self.time += dt
         
+        self.moveDisplayedNotes(dt)
         self.cleanUpDisplayedNotes()
         self.fillDisplayedNotes()
     }
     
     func fillDisplayedNotes() {
-        while self.notes[0].time < self.time + self.timingWindowDuration {
+        while !self.notes.isEmpty && self.notes[0].time < self.time + self.timingWindowDuration {
             let note = notes[0]
             
-            note.makeShape(self.scene!)
+            let shape = note.makeShape(self.scene!)
+            
+            self.scene?.addChild(shape)
             
             self.notes.removeAtIndex(0)
             self.displayedNotes.append(note)
@@ -48,7 +69,7 @@ class Score {
     }
     
     func cleanUpDisplayedNotes() {
-        while self.displayedNotes[0].time < self.time - self.timingOverflowDuration {
+        while !self.displayedNotes.isEmpty && self.displayedNotes[0].time < self.time - self.timingOverflowDuration {
             let note = self.displayedNotes.removeAtIndex(0)
             
             if let shape = note.shape {
@@ -57,11 +78,16 @@ class Score {
         }
     }
     
-    func moveDisplayedNotes(dt: Float) {
-        let delta = CGVector(dx: 0, dy: 0)
-        
+    func moveDisplayedNotes(dt: Double) {
         // Technically, it's for next duration, but close enough...
-//        let action = SKAction.moveBy(delta: delta, duration: dt)
+        let delta = CGVector(dx: 0, dy: CGFloat(-1) * CGFloat(dt) * self.deltaPixelsPerSecond)
+        let action = SKAction.moveBy(delta, duration: NSTimeInterval(0.001)) // duration < dt b/c lol
+        
+        for note in self.displayedNotes {
+            if let shape = note.shape {
+                shape.runAction(action)
+            }
+        }
     }
 }
 
