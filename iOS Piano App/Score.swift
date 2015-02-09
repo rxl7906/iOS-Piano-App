@@ -274,8 +274,93 @@ class SampleSong {
         self.note(0.5, pitch: E5),
         self.note(0.5, pitch: AFLAT5),
         self.note(0.5, pitch: GFLAT5),
-        self.note(0.5, pitch: E5)
+        self.note(0.5, pitch: E5),
         
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: AFLAT5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: AFLAT5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: GFLAT5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5)
+
         
     ]}()
 //        Note(time: 0,   pitch: AFLAT5),
