@@ -8,10 +8,13 @@
 
 import UIKit
 import SpriteKit
+import AVFoundation
 
 class GameViewController: UIViewController {
     
     var scene: GameScene!
+    
+    var audioPlayer: AVAudioPlayer? // for audio
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +26,19 @@ class GameViewController: UIViewController {
         scene.scaleMode = SKSceneScaleMode.AspectFill
         
         skView.presentScene(scene)
+        
+        
+        var paths = NSBundle.mainBundle().resourcePath!
+        var getImagePath = paths.stringByAppendingPathComponent("Piano.mf.A4.aiff")
+        
+        var error: NSError? = NSError()
+        audioPlayer = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: getImagePath), error: &error)
+        
+        println(error)
+        
+        audioPlayer!.prepareToPlay()
+        audioPlayer!.play()
+
     }
 
     override func shouldAutorotate() -> Bool {
