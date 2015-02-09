@@ -12,7 +12,7 @@ let noteShapeID: UInt32 = 0x1 << 0
 let keyboardKeyShapeID: UInt32 = 0x1 << 1
 
 class Note {
-    let keyCount = 37 // 2 octaves + 1 note (also in Keyboard.swift)
+    let keyCount = 25 // 2 octaves + 1 note (also in Keyboard.swift)
     let startNote = 60 // Middle C
     
     let time: Double // time in song
@@ -39,6 +39,26 @@ class Note {
         
         self.shape?.position = CGPoint(x: xPos, y: yPos)
         
+        let label = makeLabel(laneWidth)
+        
+        self.shape?.addChild(label)
+        
         return self.shape!
+    }
+    
+    func makeLabel(height: Double) -> SKLabelNode {
+        let label = SKLabelNode(text: noteName())
+        label.fontColor = UIColor.redColor()
+        label.fontName = "ChalkboardSE-Bold"
+        label.position = CGPoint(x: 0, y: -1.2 * height)
+        label.setScale(3)
+        
+        return label
+    }
+    
+    let noteNames = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb"]
+    
+    func noteName() -> String {
+        return noteNames[self.pitch % 12]
     }
 }
