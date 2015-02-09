@@ -189,23 +189,93 @@ class SampleSong {
     var time = 0.0
     
     lazy var notes: [Note] = {[
-        self.note(E5),
-        self.note(AFLAT5),
-        self.note(E5),
-        self.note(AFLAT5),
-        self.note(E5),
-        self.note(AFLAT5),
-        self.note(E5),
-        self.note(AFLAT5),
-        self.note(E5),
-        self.note(AFLAT5),
-        self.note(E5),
-        self.note(AFLAT5),
-        self.note(E5),
-        self.note(AFLAT5),
-        self.note(E5)
-
-
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: AFLAT5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: AFLAT5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: GFLAT5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: E5),
+        
+        self.note(0.5, pitch: B4),
+        self.note(0.5, pitch: E5),
+        self.note(0.5, pitch: AFLAT5),
+        self.note(0.5, pitch: GFLAT5),
+        self.note(0.5, pitch: E5)
+        
+        
+    ]}()
 //        Note(time: 0,   pitch: AFLAT5),
 //        Note(time: 0.5, pitch: E5),
 //        Note(time: 1.0, pitch: AFLAT5),
@@ -247,12 +317,11 @@ class SampleSong {
 //        Note(time: 38.0, pitch: AFLAT5),
 //        Note(time: 39.0, pitch: E5),
 //        Note(time: 40.0, pitch: AFLAT5),
-        ]}()
     
-    func note(pitch: Int) -> Note {
+    func note(duration: Double, pitch: Int) -> Note {
         let note = Note(time: time, pitch: pitch)
         
-        time += 0.5
+        time += duration
         
         return note;
     }
