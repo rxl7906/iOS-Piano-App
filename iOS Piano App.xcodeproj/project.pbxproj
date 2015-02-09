@@ -14,6 +14,42 @@
 		186DA80D1A86DEB8006214B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186DA80B1A86DEB8006214B2 /* LaunchScreen.xib */; };
 		186DA8191A86DEB8006214B2 /* iOS_Piano_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186DA8181A86DEB8006214B2 /* iOS_Piano_AppTests.swift */; };
 		186DA8271A87D336006214B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8261A87D336006214B2 /* Images.xcassets */; };
+		186DA8591A88303B006214B2 /* piano_A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8351A88303A006214B2 /* piano_A.mp3 */; };
+		186DA85A1A88303B006214B2 /* piano_A_sharp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8361A88303A006214B2 /* piano_A_sharp.mp3 */; };
+		186DA85B1A88303B006214B2 /* piano_B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8371A88303A006214B2 /* piano_B.mp3 */; };
+		186DA85C1A88303B006214B2 /* piano_C_sharp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8381A88303A006214B2 /* piano_C_sharp.mp3 */; };
+		186DA85D1A88303B006214B2 /* piano_D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8391A88303A006214B2 /* piano_D.mp3 */; };
+		186DA85E1A88303B006214B2 /* piano_D_sharp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA83A1A88303A006214B2 /* piano_D_sharp.mp3 */; };
+		186DA85F1A88303B006214B2 /* piano_E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA83B1A88303A006214B2 /* piano_E.mp3 */; };
+		186DA8601A88303B006214B2 /* piano_F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA83C1A88303A006214B2 /* piano_F.mp3 */; };
+		186DA8611A88303B006214B2 /* piano_F_sharp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA83D1A88303A006214B2 /* piano_F_sharp.mp3 */; };
+		186DA8621A88303B006214B2 /* piano_G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA83E1A88303A006214B2 /* piano_G.mp3 */; };
+		186DA8631A88303B006214B2 /* piano_G_sharp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA83F1A88303A006214B2 /* piano_G_sharp.mp3 */; };
+		186DA8641A88303B006214B2 /* piano_middle_C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8401A88303A006214B2 /* piano_middle_C.mp3 */; };
+		186DA8651A88303B006214B2 /* Piano.mf.A4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8411A88303A006214B2 /* Piano.mf.A4.aiff */; };
+		186DA8661A88303B006214B2 /* Piano.mf.A5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8421A88303A006214B2 /* Piano.mf.A5.aiff */; };
+		186DA8671A88303B006214B2 /* Piano.mf.Ab4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8431A88303B006214B2 /* Piano.mf.Ab4.aiff */; };
+		186DA8681A88303B006214B2 /* Piano.mf.Ab5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8441A88303B006214B2 /* Piano.mf.Ab5.aiff */; };
+		186DA8691A88303B006214B2 /* Piano.mf.B4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8451A88303B006214B2 /* Piano.mf.B4.aiff */; };
+		186DA86A1A88303B006214B2 /* Piano.mf.B5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8461A88303B006214B2 /* Piano.mf.B5.aiff */; };
+		186DA86B1A88303B006214B2 /* Piano.mf.Bb4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8471A88303B006214B2 /* Piano.mf.Bb4.aiff */; };
+		186DA86C1A88303B006214B2 /* Piano.mf.Bb5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8481A88303B006214B2 /* Piano.mf.Bb5.aiff */; };
+		186DA86D1A88303B006214B2 /* Piano.mf.C4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8491A88303B006214B2 /* Piano.mf.C4.aiff */; };
+		186DA86E1A88303B006214B2 /* Piano.mf.C5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA84A1A88303B006214B2 /* Piano.mf.C5.aiff */; };
+		186DA86F1A88303B006214B2 /* Piano.mf.D4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA84B1A88303B006214B2 /* Piano.mf.D4.aiff */; };
+		186DA8701A88303B006214B2 /* Piano.mf.D5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA84C1A88303B006214B2 /* Piano.mf.D5.aiff */; };
+		186DA8711A88303B006214B2 /* Piano.mf.Db4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA84D1A88303B006214B2 /* Piano.mf.Db4.aiff */; };
+		186DA8721A88303B006214B2 /* Piano.mf.Db5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA84E1A88303B006214B2 /* Piano.mf.Db5.aiff */; };
+		186DA8731A88303B006214B2 /* Piano.mf.E4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA84F1A88303B006214B2 /* Piano.mf.E4.aiff */; };
+		186DA8741A88303B006214B2 /* Piano.mf.E5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8501A88303B006214B2 /* Piano.mf.E5.aiff */; };
+		186DA8751A88303B006214B2 /* Piano.mf.Eb4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8511A88303B006214B2 /* Piano.mf.Eb4.aiff */; };
+		186DA8761A88303B006214B2 /* Piano.mf.Eb5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8521A88303B006214B2 /* Piano.mf.Eb5.aiff */; };
+		186DA8771A88303B006214B2 /* Piano.mf.F4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8531A88303B006214B2 /* Piano.mf.F4.aiff */; };
+		186DA8781A88303B006214B2 /* Piano.mf.F5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8541A88303B006214B2 /* Piano.mf.F5.aiff */; };
+		186DA8791A88303B006214B2 /* Piano.mf.G4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8551A88303B006214B2 /* Piano.mf.G4.aiff */; };
+		186DA87A1A88303B006214B2 /* Piano.mf.G5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8561A88303B006214B2 /* Piano.mf.G5.aiff */; };
+		186DA87B1A88303B006214B2 /* Piano.mf.Gb4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8571A88303B006214B2 /* Piano.mf.Gb4.aiff */; };
+		186DA87C1A88303B006214B2 /* Piano.mf.Gb5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 186DA8581A88303B006214B2 /* Piano.mf.Gb5.aiff */; };
 		D3DEEE2B1A880B4D00EB071B /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DEEE2A1A880B4D00EB071B /* Score.swift */; };
 		D3FBB8231A87111A00F89CD1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FBB8221A87111A00F89CD1 /* Note.swift */; };
 		D3FBB8251A87137D00F89CD1 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FBB8241A87137D00F89CD1 /* Keyboard.swift */; };
@@ -29,6 +65,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		186DA8301A882522006214B2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Documents;
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		186DA7F91A86DEB8006214B2 /* iOS Piano App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Piano App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186DA7FD1A86DEB8006214B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +89,42 @@
 		186DA8171A86DEB8006214B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		186DA8181A86DEB8006214B2 /* iOS_Piano_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Piano_AppTests.swift; sourceTree = "<group>"; };
 		186DA8261A87D336006214B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		186DA8351A88303A006214B2 /* piano_A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_A.mp3; sourceTree = "<group>"; };
+		186DA8361A88303A006214B2 /* piano_A_sharp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_A_sharp.mp3; sourceTree = "<group>"; };
+		186DA8371A88303A006214B2 /* piano_B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_B.mp3; sourceTree = "<group>"; };
+		186DA8381A88303A006214B2 /* piano_C_sharp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_C_sharp.mp3; sourceTree = "<group>"; };
+		186DA8391A88303A006214B2 /* piano_D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_D.mp3; sourceTree = "<group>"; };
+		186DA83A1A88303A006214B2 /* piano_D_sharp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_D_sharp.mp3; sourceTree = "<group>"; };
+		186DA83B1A88303A006214B2 /* piano_E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_E.mp3; sourceTree = "<group>"; };
+		186DA83C1A88303A006214B2 /* piano_F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_F.mp3; sourceTree = "<group>"; };
+		186DA83D1A88303A006214B2 /* piano_F_sharp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_F_sharp.mp3; sourceTree = "<group>"; };
+		186DA83E1A88303A006214B2 /* piano_G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_G.mp3; sourceTree = "<group>"; };
+		186DA83F1A88303A006214B2 /* piano_G_sharp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_G_sharp.mp3; sourceTree = "<group>"; };
+		186DA8401A88303A006214B2 /* piano_middle_C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = piano_middle_C.mp3; sourceTree = "<group>"; };
+		186DA8411A88303A006214B2 /* Piano.mf.A4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.A4.aiff; sourceTree = "<group>"; };
+		186DA8421A88303A006214B2 /* Piano.mf.A5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.A5.aiff; sourceTree = "<group>"; };
+		186DA8431A88303B006214B2 /* Piano.mf.Ab4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Ab4.aiff; sourceTree = "<group>"; };
+		186DA8441A88303B006214B2 /* Piano.mf.Ab5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Ab5.aiff; sourceTree = "<group>"; };
+		186DA8451A88303B006214B2 /* Piano.mf.B4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.B4.aiff; sourceTree = "<group>"; };
+		186DA8461A88303B006214B2 /* Piano.mf.B5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.B5.aiff; sourceTree = "<group>"; };
+		186DA8471A88303B006214B2 /* Piano.mf.Bb4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Bb4.aiff; sourceTree = "<group>"; };
+		186DA8481A88303B006214B2 /* Piano.mf.Bb5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Bb5.aiff; sourceTree = "<group>"; };
+		186DA8491A88303B006214B2 /* Piano.mf.C4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.C4.aiff; sourceTree = "<group>"; };
+		186DA84A1A88303B006214B2 /* Piano.mf.C5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.C5.aiff; sourceTree = "<group>"; };
+		186DA84B1A88303B006214B2 /* Piano.mf.D4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.D4.aiff; sourceTree = "<group>"; };
+		186DA84C1A88303B006214B2 /* Piano.mf.D5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.D5.aiff; sourceTree = "<group>"; };
+		186DA84D1A88303B006214B2 /* Piano.mf.Db4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Db4.aiff; sourceTree = "<group>"; };
+		186DA84E1A88303B006214B2 /* Piano.mf.Db5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Db5.aiff; sourceTree = "<group>"; };
+		186DA84F1A88303B006214B2 /* Piano.mf.E4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.E4.aiff; sourceTree = "<group>"; };
+		186DA8501A88303B006214B2 /* Piano.mf.E5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.E5.aiff; sourceTree = "<group>"; };
+		186DA8511A88303B006214B2 /* Piano.mf.Eb4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Eb4.aiff; sourceTree = "<group>"; };
+		186DA8521A88303B006214B2 /* Piano.mf.Eb5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Eb5.aiff; sourceTree = "<group>"; };
+		186DA8531A88303B006214B2 /* Piano.mf.F4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.F4.aiff; sourceTree = "<group>"; };
+		186DA8541A88303B006214B2 /* Piano.mf.F5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.F5.aiff; sourceTree = "<group>"; };
+		186DA8551A88303B006214B2 /* Piano.mf.G4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.G4.aiff; sourceTree = "<group>"; };
+		186DA8561A88303B006214B2 /* Piano.mf.G5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.G5.aiff; sourceTree = "<group>"; };
+		186DA8571A88303B006214B2 /* Piano.mf.Gb4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Gb4.aiff; sourceTree = "<group>"; };
+		186DA8581A88303B006214B2 /* Piano.mf.Gb5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Piano.mf.Gb5.aiff; sourceTree = "<group>"; };
 		D3DEEE2A1A880B4D00EB071B /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		D3FBB8221A87111A00F89CD1 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		D3FBB8241A87137D00F89CD1 /* Keyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
@@ -102,6 +186,7 @@
 		186DA7FC1A86DEB8006214B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				186DA8331A88303A006214B2 /* PianoKeys */,
 				186DA7FD1A86DEB8006214B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -124,6 +209,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		186DA8331A88303A006214B2 /* PianoKeys */ = {
+			isa = PBXGroup;
+			children = (
+				186DA8341A88303A006214B2 /* Other */,
+				186DA8411A88303A006214B2 /* Piano.mf.A4.aiff */,
+				186DA8421A88303A006214B2 /* Piano.mf.A5.aiff */,
+				186DA8431A88303B006214B2 /* Piano.mf.Ab4.aiff */,
+				186DA8441A88303B006214B2 /* Piano.mf.Ab5.aiff */,
+				186DA8451A88303B006214B2 /* Piano.mf.B4.aiff */,
+				186DA8461A88303B006214B2 /* Piano.mf.B5.aiff */,
+				186DA8471A88303B006214B2 /* Piano.mf.Bb4.aiff */,
+				186DA8481A88303B006214B2 /* Piano.mf.Bb5.aiff */,
+				186DA8491A88303B006214B2 /* Piano.mf.C4.aiff */,
+				186DA84A1A88303B006214B2 /* Piano.mf.C5.aiff */,
+				186DA84B1A88303B006214B2 /* Piano.mf.D4.aiff */,
+				186DA84C1A88303B006214B2 /* Piano.mf.D5.aiff */,
+				186DA84D1A88303B006214B2 /* Piano.mf.Db4.aiff */,
+				186DA84E1A88303B006214B2 /* Piano.mf.Db5.aiff */,
+				186DA84F1A88303B006214B2 /* Piano.mf.E4.aiff */,
+				186DA8501A88303B006214B2 /* Piano.mf.E5.aiff */,
+				186DA8511A88303B006214B2 /* Piano.mf.Eb4.aiff */,
+				186DA8521A88303B006214B2 /* Piano.mf.Eb5.aiff */,
+				186DA8531A88303B006214B2 /* Piano.mf.F4.aiff */,
+				186DA8541A88303B006214B2 /* Piano.mf.F5.aiff */,
+				186DA8551A88303B006214B2 /* Piano.mf.G4.aiff */,
+				186DA8561A88303B006214B2 /* Piano.mf.G5.aiff */,
+				186DA8571A88303B006214B2 /* Piano.mf.Gb4.aiff */,
+				186DA8581A88303B006214B2 /* Piano.mf.Gb5.aiff */,
+			);
+			path = PianoKeys;
+			sourceTree = "<group>";
+		};
+		186DA8341A88303A006214B2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				186DA8351A88303A006214B2 /* piano_A.mp3 */,
+				186DA8361A88303A006214B2 /* piano_A_sharp.mp3 */,
+				186DA8371A88303A006214B2 /* piano_B.mp3 */,
+				186DA8381A88303A006214B2 /* piano_C_sharp.mp3 */,
+				186DA8391A88303A006214B2 /* piano_D.mp3 */,
+				186DA83A1A88303A006214B2 /* piano_D_sharp.mp3 */,
+				186DA83B1A88303A006214B2 /* piano_E.mp3 */,
+				186DA83C1A88303A006214B2 /* piano_F.mp3 */,
+				186DA83D1A88303A006214B2 /* piano_F_sharp.mp3 */,
+				186DA83E1A88303A006214B2 /* piano_G.mp3 */,
+				186DA83F1A88303A006214B2 /* piano_G_sharp.mp3 */,
+				186DA8401A88303A006214B2 /* piano_middle_C.mp3 */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +270,7 @@
 				186DA7F51A86DEB8006214B2 /* Sources */,
 				186DA7F61A86DEB8006214B2 /* Frameworks */,
 				186DA7F71A86DEB8006214B2 /* Resources */,
+				186DA8301A882522006214B2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -204,9 +341,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186DA86E1A88303B006214B2 /* Piano.mf.C5.aiff in Resources */,
+				186DA8621A88303B006214B2 /* piano_G.mp3 in Resources */,
+				186DA8671A88303B006214B2 /* Piano.mf.Ab4.aiff in Resources */,
+				186DA87B1A88303B006214B2 /* Piano.mf.Gb4.aiff in Resources */,
+				186DA8701A88303B006214B2 /* Piano.mf.D5.aiff in Resources */,
 				186DA8271A87D336006214B2 /* Images.xcassets in Resources */,
+				186DA8751A88303B006214B2 /* Piano.mf.Eb4.aiff in Resources */,
+				186DA8651A88303B006214B2 /* Piano.mf.A4.aiff in Resources */,
+				186DA85A1A88303B006214B2 /* piano_A_sharp.mp3 in Resources */,
+				186DA8591A88303B006214B2 /* piano_A.mp3 in Resources */,
+				186DA87A1A88303B006214B2 /* Piano.mf.G5.aiff in Resources */,
+				186DA85E1A88303B006214B2 /* piano_D_sharp.mp3 in Resources */,
+				186DA85F1A88303B006214B2 /* piano_E.mp3 in Resources */,
+				186DA8661A88303B006214B2 /* Piano.mf.A5.aiff in Resources */,
+				186DA86D1A88303B006214B2 /* Piano.mf.C4.aiff in Resources */,
+				186DA8641A88303B006214B2 /* piano_middle_C.mp3 in Resources */,
+				186DA87C1A88303B006214B2 /* Piano.mf.Gb5.aiff in Resources */,
+				186DA8691A88303B006214B2 /* Piano.mf.B4.aiff in Resources */,
+				186DA8681A88303B006214B2 /* Piano.mf.Ab5.aiff in Resources */,
+				186DA8781A88303B006214B2 /* Piano.mf.F5.aiff in Resources */,
+				186DA8711A88303B006214B2 /* Piano.mf.Db4.aiff in Resources */,
 				186DA80D1A86DEB8006214B2 /* LaunchScreen.xib in Resources */,
+				186DA8631A88303B006214B2 /* piano_G_sharp.mp3 in Resources */,
+				186DA8771A88303B006214B2 /* Piano.mf.F4.aiff in Resources */,
+				186DA85C1A88303B006214B2 /* piano_C_sharp.mp3 in Resources */,
+				186DA8741A88303B006214B2 /* Piano.mf.E5.aiff in Resources */,
+				186DA85D1A88303B006214B2 /* piano_D.mp3 in Resources */,
+				186DA8611A88303B006214B2 /* piano_F_sharp.mp3 in Resources */,
+				186DA8721A88303B006214B2 /* Piano.mf.Db5.aiff in Resources */,
+				186DA86B1A88303B006214B2 /* Piano.mf.Bb4.aiff in Resources */,
+				186DA8601A88303B006214B2 /* piano_F.mp3 in Resources */,
+				186DA86C1A88303B006214B2 /* Piano.mf.Bb5.aiff in Resources */,
 				186DA8081A86DEB8006214B2 /* Main.storyboard in Resources */,
+				186DA8791A88303B006214B2 /* Piano.mf.G4.aiff in Resources */,
+				186DA85B1A88303B006214B2 /* piano_B.mp3 in Resources */,
+				186DA86A1A88303B006214B2 /* Piano.mf.B5.aiff in Resources */,
+				186DA8731A88303B006214B2 /* Piano.mf.E4.aiff in Resources */,
+				186DA86F1A88303B006214B2 /* Piano.mf.D4.aiff in Resources */,
+				186DA8761A88303B006214B2 /* Piano.mf.Eb5.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

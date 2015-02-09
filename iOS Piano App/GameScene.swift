@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 iOSAppChallengeRIT. All rights reserved.
 //
 
+import UIKit
 import SpriteKit
 
 class GameScene: SKScene {
