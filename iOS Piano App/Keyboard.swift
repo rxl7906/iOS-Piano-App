@@ -98,14 +98,14 @@ class Key {
     
     func flash() {
         if let s = shape {
-            s.fillColor = UIColor.redColor()
+            s.fillColor = UIColor.greenColor()
         }
     }
     
     func maybeClearFlash(delta: Double) {
         self.flashDuration += delta
         
-        if self.flashDuration > 0.2 {
+        if self.flashDuration > 0.5 {
             self.flashDuration = 0
             
             if let s = shape {

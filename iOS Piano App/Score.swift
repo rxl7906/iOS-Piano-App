@@ -45,7 +45,7 @@ class Score {
             CGFloat(1.0 / 60.0) /
             CGFloat(beatsPerMeasure) /
             CGFloat(measuresPerScren) *
-            scene.size.height * self.heightRatio
+            scene.size.height * self.heightRatio * 1.01
         
         
         self.fillDisplayedNotes()
@@ -73,7 +73,7 @@ class Score {
     }
     
     func cleanUpDisplayedNotes() {
-        while !self.displayedNotes.isEmpty && self.displayedNotes[0].time < self.time - self.timingOverflowDuration {
+        while !self.displayedNotes.isEmpty && self.displayedNotes[0].time < self.time {
             let note = self.displayedNotes.removeAtIndex(0)
             
             if let shape = note.shape {
