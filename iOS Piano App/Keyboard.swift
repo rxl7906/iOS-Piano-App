@@ -9,7 +9,7 @@
 import SpriteKit
 
 class Keyboard {
-    let keyCount = 25 // 2 octaves + 1 note
+    let keyCount = 37 // 2 octaves + 1 note
     let startNote = 60 // Middle C
     
     let strokeColor = UIColor.grayColor()

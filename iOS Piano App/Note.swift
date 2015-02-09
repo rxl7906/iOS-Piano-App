@@ -12,7 +12,7 @@ let noteShapeID: UInt32 = 0x1 << 0
 let keyboardKeyShapeID: UInt32 = 0x1 << 1
 
 class Note {
-    let keyCount = 25 // 2 octaves + 1 note (also in Keyboard.swift)
+    let keyCount = 37 // 2 octaves + 1 note (also in Keyboard.swift)
     let startNote = 60 // Middle C
     
     let time: Double // time in song
@@ -56,7 +56,7 @@ class Note {
         return label
     }
     
-    let noteNames = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb"]
+    let noteNames = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"]
     
     func noteName() -> String {
         return noteNames[self.pitch % 12]
